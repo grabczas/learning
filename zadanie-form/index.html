@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="main_wrapper">
+      <form>
+        <div class="row">
+          <div class="col-25">
+            <label for="name">Imię i Nazwisko</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="name" placeholder="Wpisz imię i nazwisko"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="mail">Mail</label>
+          </div>
+          <div class="col-75">
+            <input type="text" name="mail" placeholder="Wpisz adres email"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="phone">Numer telefonu</label>
+          </div>
+          <div class="col-75">
+            <input type="number" name="phone" placeholder="Wpisz numer telefonu"/>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="message">Wiadomość</label>
+          </div>
+          <div class="col-75">
+            <textarea name="message" placeholder="Wpisz treść wiadomości" rows="4"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="reg">Regulamin</label>
+          </div>
+          <div class="col-75 regulamin">
+            <input type="checkbox" name="reg" />
+            <span>Znam regulamin i się z nim zgadzam</span>
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            <input type="submit" value="Wyślij" />
+
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

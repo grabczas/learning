@@ -1,0 +1,12 @@
+var x = 2;
+var y = 3;
+var z;
+
+x = liczba kliknięć
+z = y * x
+
+1. znaleźć element klikalny
+2. eventlistener
+3. stworzenie funkcji i zależności
+3.1 działanie matematyczne
+3.2 

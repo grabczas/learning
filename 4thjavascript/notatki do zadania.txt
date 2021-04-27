@@ -1,0 +1,6 @@
+czerwona kropka ma jeździć po obwodzie pioruna na strzałce
+
+1. kropka w pozycji absolutnej
+2. eventlistener na hover
+3. for loop
+4. tablica?

@@ -1,0 +1,58 @@
+@keyframes myAnimation {
+  0% {
+    transform: translateX(286px) translateY(193px);
+  }
+  10% {
+    transform: translateX(517px) translateY(255px);
+  }
+  20% {
+    transform: translateX(450px) translateY(275px);
+  }
+  30% {
+    transform: translateX(666px) translateY(335px);
+  }
+  40% {
+    transform: translateX(610px) translateY(351px);
+  }
+  50% {
+    transform: translateX(970px) translateY(447px);
+  }
+  60% {
+    transform: translateX(751px) translateY(319px);
+  }
+  70% {
+    transform: translateX(808px) translateY(306px);
+  }
+  80% {
+    transform: translateX(641px) translateY(234px);
+  }
+  90% {
+    transform: translateX(692px) translateY(220px);
+  }
+  100% {
+    transform: translateX(550px) translateY(134px);
+  }
+}
+
+.animation-wrapper {
+  position: relative;
+}
+
+#redball {
+  border: 10px solid red;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 100%;
+  height: 5px;
+  width: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(286px) translateY(193px);
+}
+
+#redball:hover {
+  animation: myAnimation 80s;
+  animation-play-state: running;
+  transition-timing-function: linear;
+}

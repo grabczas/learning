@@ -10,8 +10,8 @@
   height: 5px;
   width: 5px;
   position: absolute;
-  top: 193;
-  left: 286;
+  top: 193px;
+  left: 286px;
   offset-path: path('M10,10 l230,65 l-65,15 l215,60 l-55,18 l360,95 l-215,-128 l50,-13 l-162,-71 l45,-15 l-137,-86 z');
   transition: linear 30s;
 }
